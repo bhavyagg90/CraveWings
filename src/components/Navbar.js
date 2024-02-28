@@ -33,7 +33,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/createuser ">
-                  Signup hello cick here for 
+                  Signup
                 </Link>
               </li>
             </ul>
