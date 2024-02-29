@@ -17,6 +17,9 @@ export default function Signup() {
       })
 
   }
+  const onChange=()=>{
+    setcredentials({...credentials,[]})
+  }
   return (
     <>
       <div className="container">
@@ -28,6 +31,8 @@ export default function Signup() {
           <input
             type="text"
             className="form-control"
+            name="name" value={credentials.name}
+            onChange={onChange}
           />
         </div>
         <div className="mb-3">
@@ -39,6 +44,7 @@ export default function Signup() {
             className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            name="email" value={credentials.email}
           />
           <div id="emailHelp" className="form-text">
             We'll never share your email with anyone else.
@@ -52,6 +58,18 @@ export default function Signup() {
             type="password"
             className="form-control"
             id="exampleInputPassword1"
+            name="password" value={credentials.password}
+          />
+        </div>
+        <div className="mb-3">
+          <label for="exampleInputPassword1" className="form-label">
+            Address
+          </label>
+          <input
+            type="password"
+            className="form-control"
+            id="exampleInputPassword1"
+            name="address" value={credentials.geolocation}
           />
         </div>
 
