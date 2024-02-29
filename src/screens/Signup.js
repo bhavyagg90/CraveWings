@@ -1,15 +1,19 @@
-import React from "react";
+import { Password } from "@mui/icons-material";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 
 export default function Signup() {
+  const [credentials, setcredentials] = useState({name:"", email:"", password:"",geolocation:""})
+
   const handleSubmit = async(e)=>{
       e.preventDefault();
       const response = fetch("https://localhost:5000/api/createuser",{
         method:'POST',
         header:{
-          
+          'Content-Type':'application/json'
         }
+        body:JSON.stringify()
       })
 
   }
