@@ -1,6 +1,6 @@
 import React from 'react'
-import { useState } from 'react';
-import { Link } from "react-router-dom";
+import { useState  } from 'react';
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
   const [credentials, setCredentials] = useState({
@@ -9,6 +9,7 @@ export default function Login() {
     password: "",
     location: "",
   });
+  let navigate = useNavigate()
 
   // Handle form submission
   const handleSubmit = async (e) => {
@@ -33,7 +34,10 @@ export default function Login() {
     // If the server indicates an unsuccessful response, show an alert
     if (!json.success) {
       alert("Enter valid Credentials");
+    }if (!json.success) {
+      navigate("/")
     }
+    
   };
 
   // Handle changes in form inputs and update the state
