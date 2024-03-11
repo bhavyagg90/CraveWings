@@ -9,13 +9,13 @@ export default function Signup() {
     password: "",
     location: "",
   });
-  //afsafa
+  
 
-  // Handle form submission
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Send a POST request to the server with form data
+    
     const response = await fetch("http://localhost:5000/api/createuser", {
       method: "POST",
       headers: {

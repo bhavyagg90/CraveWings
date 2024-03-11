@@ -50,7 +50,6 @@ export default function Card(props) {
               })}
             </select>
             <select
-            //saf
               className="m-2 h-100 bg-success rounded"
               ref={priceRef}
               onChange={(e) => setSize(e.target.value)}
