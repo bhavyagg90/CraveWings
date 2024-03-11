@@ -9,6 +9,7 @@ export default function Signup() {
     password: "",
     location: "",
   });
+  //afsafa
 
   // Handle form submission
   const handleSubmit = async (e) => {
