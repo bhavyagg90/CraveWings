@@ -47,7 +47,7 @@ export default function Card(props) {
                     {i + 1}
                   </option>
                 );
-                //dksngkjdagk
+                
               })}
             </select>
             <select

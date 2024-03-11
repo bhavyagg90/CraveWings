@@ -10,8 +10,7 @@ export default function Signup() {
     location: "",
   });
   
-//dfdagdgdsga ds 
-//sd gdsa gsa
+
   
   const handleSubmit = async (e) => {
     e.preventDefault();
