@@ -18,13 +18,14 @@ export default function Card(props) {
       qty: qty,
       size: size,
     });
+    //check the data
     console.log(data);
   };
   let finalPrice = qty * parseInt(options[size]);
   useEffect(() => {
     setSize(priceRef.current.value);
   }, []);
-
+// this is a return statement
   return (
     <div>
       <div className="card mt-3" style={{ width: "18rem", maxHeight: "360px" }}>
