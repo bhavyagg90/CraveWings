@@ -7,6 +7,7 @@ export default function Login() {
     name: "",
     email: "",
     password: "",
+    //dasfaf
     location: "",
   });
   const navigate = useNavigate();
