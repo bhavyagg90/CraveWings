@@ -5,7 +5,6 @@ export default function Carousal() {
     <div>
       <div
         id="carouselExampleFade"
-        className="carousel slide carousel-fade"
         data-bs-ride="carousel"
         style={{ objectFit: "fill !important" }}
       >
