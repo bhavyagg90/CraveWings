@@ -28,7 +28,7 @@ export default function Login() {
       }),
     });
 
-    // Parse the JSON response from the server
+    
     const json = await response.json();
     console.log(json);
 
