@@ -12,7 +12,7 @@ export default function Login() {
   });
   const navigate = useNavigate();
 
-  // Handle form submission
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
