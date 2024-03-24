@@ -16,7 +16,7 @@ const reducer = (state, action) => {
           img: action.img,
         },
       ];
-
+//hhgg
     default:
       console.log("Error in Reducer");
   }
