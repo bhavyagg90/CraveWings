@@ -21,7 +21,7 @@ export default function Home() {
     setFoodCat(response[1]);
     // console.log(response[0],response[1]);
   };
-
+//hhfdf
   useEffect(() => {
     loadData();
   }, []);
