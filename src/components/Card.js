@@ -18,7 +18,7 @@ export default function Card(props) {
       qty: qty,
       size: size,
     });
-    //hhdhshsv
+    
     console.log(data);
   };
   let finalPrice = qty * parseInt(options[size]);
