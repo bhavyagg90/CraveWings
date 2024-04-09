@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatchCart, useCart } from "./ContextReducer";
 
@@ -18,6 +19,7 @@ export default function Card(props) {
       qty: qty,
       size: size,
     });
+    
     console.log(data);
   };
   let finalPrice = qty * parseInt(options[size]);

@@ -7,11 +7,12 @@ export default function Login() {
     name: "",
     email: "",
     password: "",
+    
     location: "",
   });
   const navigate = useNavigate();
 
-  // Handle form submission
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -27,7 +28,7 @@ export default function Login() {
       }),
     });
 
-    // Parse the JSON response from the server
+    
     const json = await response.json();
     console.log(json);
 
