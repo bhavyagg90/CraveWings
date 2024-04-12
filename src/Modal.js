@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-// const MODAL_STYLES = {
-//   position: 'fixed',
-//   top: '50%',
-//   left: '50%',
-//   backgroundColor: 'rgb(34,34,34)',
-//   transform: 'translate(-50%, -50%)',
-//   zIndex: 1000,
-//   height: '90%',
-//   width: '90%'
-// }
+const MODAL_STYLES = {
+  position: 'fixed',
+  top: '50%',
+  left: '50%',
+  backgroundColor: 'rgb(34,34,34)',
+  transform: 'translate(-50%, -50%)',
+  zIndex: 1000,
+  height: '90%',
+  width: '90%'
+}
 
 const OVERLAY_STYLES = {
   position: 'fixed',
