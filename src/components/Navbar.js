@@ -70,11 +70,10 @@ export default function Navbar() {
                 <div className="btn bg-white text-success mx-2" onClick={()=>{setCartView(true)}}>
                   My Cart{" "}
                   <Badge pill bg="danger">
-                    {" "}
                     2
                   </Badge>
                 </div>
-                {cartView? <Modal onClose={()=>setCartView(false)}><Cart/></Modal>: null}
+                {cartView? (<Modal onClose={()=>setCartView(false)}><Cart/> </Modal>): null}
                 <div
                   className="btn bg-white text-danger mx-2"
                   onClick={handleLogout}
