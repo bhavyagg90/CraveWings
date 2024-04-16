@@ -6,6 +6,7 @@ import Cart from "../screens/Cart";
 export default function Navbar() {
   const [cartView, setCartView] = useState(false)
   const navigate = useNavigate();
+  let data = useCart();
   const handleLogout = () => {
     localStorage.removeItem("authToken");
     navigate("/login");

@@ -64,7 +64,7 @@ export default function Cart() {
                 <td>{food.size}</td>
                 <td>{food.price}</td>
                 <td ><button>
-                    
+                    j
                   </button> </td></tr>
             ))}
           </tbody>
