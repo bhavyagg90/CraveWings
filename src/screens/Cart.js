@@ -15,7 +15,7 @@ export default function Cart() {
   //   console.log(index)
   //   dispatch({type:"REMOVE",index:index})
   // }
-
+//bjsjvvs
   // const handleCheckOut = async () => {
   //   let userEmail = localStorage.getItem("userEmail");
   //   // console.log(data,localStorage.getItem("userEmail"),new Date())
