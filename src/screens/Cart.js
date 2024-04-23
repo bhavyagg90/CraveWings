@@ -9,10 +9,7 @@ export default function Cart() {
       <div>
         <div className='m-5 w-100 text-center fs-3'>The Cart is Empty!</div>
       </div>
-    )
-  }
-  jajajjs
-  // const handleRemove = (index)=>{
+    )     } // const handleRemove = (index)=>{
   //   console.log(index)
   //   dispatch({type:"REMOVE",index:index})
   //
