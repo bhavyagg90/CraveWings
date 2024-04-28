@@ -13,7 +13,7 @@ export default function Cart() {
   const handleRemove = (index)=>{
     console.log(index)
     dispatch({type:"REMOVE",index:index})
-  
+
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     console.log(data,localStorage.getItem("userEmail"),new Date())
@@ -44,6 +44,9 @@ export default function Cart() {
       <div className='container m-auto mt-5 table-responsive  table-responsive-sm table-responsive-md' >
         <table className='table table-hover '>
           <thead className=' text-success fs-4'>
+      <div>
+      hr
+      </div>
             <tr>
               <th scope='col' >#</th>
               <th scope='col' >Name</th>
