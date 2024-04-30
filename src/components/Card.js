@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatchCart, useCart } from "./ContextReducer";
-hbjbhjhh
+
 export default function Card(props) {
   let dispatch = useDispatchCart();
   let options = props.options;
