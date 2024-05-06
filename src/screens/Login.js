@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-nkkjk
+
 export default function Login() {
   const [credentials, setCredentials] = useState({
     name: "",
