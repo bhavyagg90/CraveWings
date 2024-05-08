@@ -34,8 +34,16 @@ export default function Card(props) {
       });
       
     }
-    
+    await dispatch({
+      type: "ADD",
+      id: props.foodItem._id,
+      name: props.foodItem.name,
+      price: finalPrice,
+      qty: qty,
+      size: size,
+    });
     // await console.log(data);
+  
   }
   };
   let finalPrice = qty * parseInt(options[size]);
