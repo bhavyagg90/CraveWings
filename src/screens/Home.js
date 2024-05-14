@@ -31,7 +31,7 @@ export default function Home() {
         <Navbar />
       </div>
       <div>
-    <div>helllo worlds</div>
+    
         <div
           id="carouselExampleFade"
           className="carousel slide carousel-fade"
