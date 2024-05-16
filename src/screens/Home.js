@@ -20,7 +20,7 @@ export default function Home() {
     setFoodCat(response[1]);
     // console.log(response[0],response[1]);
   };
-
+thisbis a useEffect hook used 
   useEffect(() => {
     loadData();
   }, []);
