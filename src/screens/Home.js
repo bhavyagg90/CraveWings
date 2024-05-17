@@ -14,7 +14,7 @@ export default function Home() {
         "Content-Type": "application/json",
       },
     });
-//this is a comment to specify the below written function 
+ 
     response = await response.json();
     setFoodItem(response[0]);
     setFoodCat(response[1]);
