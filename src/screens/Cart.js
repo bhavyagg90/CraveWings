@@ -14,7 +14,6 @@ export default function Cart() {
     console.log(index)
     dispatch({type:"REMOVE",index:index})
   }
-m   m ,m mk,
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     console.log(data,localStorage.getItem("userEmail"),new Date())
