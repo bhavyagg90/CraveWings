@@ -22,6 +22,7 @@ const reducer = (state, action) => {
       return newArr;
     default:
       console.log("Error in Reducer");
+      
   }
 };
 

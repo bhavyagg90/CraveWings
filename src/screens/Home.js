@@ -14,13 +14,13 @@ export default function Home() {
         "Content-Type": "application/json",
       },
     });
-
+ 
     response = await response.json();
     setFoodItem(response[0]);
     setFoodCat(response[1]);
     // console.log(response[0],response[1]);
   };
-
+ 
   useEffect(() => {
     loadData();
   }, []);
@@ -31,6 +31,7 @@ export default function Home() {
         <Navbar />
       </div>
       <div>
+    
         <div
           id="carouselExampleFade"
           className="carousel slide carousel-fade"
