@@ -21,7 +21,19 @@ export default function Card(props) {
       if (food.size === size){
         await dispatch({type:"UPDATE", id: props.foodItem._id, price: finalPrice, qty: qty})
         return
-      }
+      }if(food !== []){
+        if (food.size === size){
+          await dispatch({type:"UPDATE", id: props.foodItem._id, price: finalPrice, qty: qty})
+          return
+        }if(food !== []){
+          if (food.size === size){
+            await dispatch({type:"UPDATE", id: props.foodItem._id, price: finalPrice, qty: qty})
+            return
+          }if(food !== []){
+            if (food.size === size){
+              await dispatch({type:"UPDATE", id: props.foodItem._id, price: finalPrice, qty: qty})
+              return
+            }
     else if(food.size !== size){
       await dispatch({
         type: "ADD",
