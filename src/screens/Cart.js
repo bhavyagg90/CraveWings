@@ -36,7 +36,7 @@ export default function Cart() {
       dispatch({ type: "DROP" })
     }
   }
-
+vhsha
   let totalPrice = data.reduce((total, food) => total + food.price, 0)
   return (
     <div>
