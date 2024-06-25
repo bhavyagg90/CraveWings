@@ -14,7 +14,7 @@ export default function Home() {
         "Content-Type": "application/json",
       },
     });
-
+fucyddjjunyk
     response = await response.json();
     setFoodItem(response[0]);
     setFoodCat(response[1]);
