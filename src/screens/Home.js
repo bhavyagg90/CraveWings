@@ -24,8 +24,7 @@ export default function Home() {
   useEffect(() => {
     loadData();
   }, []);
-login is not possible 
-  hence logout
+
   return (
     <div>
       <div>
