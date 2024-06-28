@@ -10,6 +10,8 @@ export default function Carousal() {
         data-bs-ride="carousel"
         style={{ objectFit: "fill !important" }}
       >
+
+        e weft TBD buffing thud for will only syringe jg
         <div className="carousel-inner" id="carousal">
           <div className="carousel-caption" style={{ zIndex: "10" }}>
             <form className="d-flex">
