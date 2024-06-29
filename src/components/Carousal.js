@@ -18,7 +18,6 @@ export default function Carousal() {
                 placeholder="Search"
                 aria-label="Search"
               />
-                  console.log("hello world")
               <button
                 className="btn btn-outline-success text-white bg-success"
                 type="submit"
