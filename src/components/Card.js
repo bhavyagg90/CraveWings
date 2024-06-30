@@ -17,7 +17,7 @@ export default function Card(props) {
         break;
       }
 
-      huidiidi
+      
     }
     if(food !== []){
       if (food.size === size){
