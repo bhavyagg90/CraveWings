@@ -11,7 +11,7 @@ export default function Login() {
     location: "",
   });
   const navigate = useNavigate();
-REGEGAFDB
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
