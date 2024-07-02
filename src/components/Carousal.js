@@ -18,7 +18,7 @@ export default function Carousal() {
                 placeholder="Search"
                 aria-label="Search"
               />
-                  hhjaggg
+                  
               <button
                 className="btn btn-outline-success text-white bg-success"
                 type="submit"
