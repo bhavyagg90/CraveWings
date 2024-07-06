@@ -77,6 +77,11 @@ export default function Carousal() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+
+                <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
     </div>
   );
 }
