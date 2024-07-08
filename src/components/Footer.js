@@ -10,7 +10,7 @@ export default function Footer() {
       </Link>
       <span className="text-muted">© 2024 CraveWings, Inc</span>
     </div>
-
+this is a footer cose
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
     </ul>
   </footer>
