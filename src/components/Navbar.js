@@ -17,7 +17,8 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-success">
         <div className="container-fluid">
           <Link className="navbar-brand fs-1 fst-italic" to="/">
-            GoFood
+          CraveWings
+
           </Link>
           
           <div className="collapse navbar-collapse" id="navbarNav">
